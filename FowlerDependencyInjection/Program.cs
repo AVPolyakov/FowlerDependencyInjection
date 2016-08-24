@@ -1,5 +1,6 @@
 ﻿using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using static FowlerDependencyInjection.Assembler;
+using static Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace FowlerDependencyInjection
 {
@@ -7,8 +8,8 @@ namespace FowlerDependencyInjection
     {
         static void Main()
         {
-            var movies = Assembler.CreateMovieLister().MoviesDirectedBy("Sergio Leone");
-            Assert.AreEqual("Once Upon a Time in the West", movies.First().Title);
+            var movies = CreateMovieLister().MoviesDirectedBy("Sergio Leone");
+            AreEqual("Once Upon a Time in the West", movies.First().Title);
         }
     }
 }

@@ -12,9 +12,7 @@ namespace FowlerDependencyInjection
             this.finder = finder;
         }
 
-        public IEnumerable<Movie> MoviesDirectedBy(string arg)
-        {
-            return finder.FindAll().Where(movie => movie.Director == arg);
-        }
+        public IEnumerable<Movie> MoviesDirectedBy(string arg) 
+            => finder.FindAll().Where(movie => movie.Director == arg);
     }
 }

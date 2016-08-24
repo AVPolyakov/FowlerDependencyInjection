@@ -10,7 +10,7 @@ namespace FowlerDependencyInjection
 
         public IEnumerable<Movie> FindAll()
         {
-            yield return new Movie() {Director = "Sergio Leone", Title = "Once Upon a Time in the West"};
+            yield return new Movie {Director = "Sergio Leone", Title = "Once Upon a Time in the West"};
         }
     }
 }
