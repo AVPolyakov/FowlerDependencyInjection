@@ -4,9 +4,9 @@
 Для дизайна программного обеспечения главными являются 
 [экономические аргументы](http://martinfowler.com/videos.html#economics-software-design).
 
-Экономическая цель для 
-[примера](http://martinfowler.com/articles/injection.html#ANaiveExample) 
-из описания патерна Dependency Injection:
+В описании паттерна Dependency Injection есть
+[пример](http://martinfowler.com/articles/injection.html#ANaiveExample).
+Экономическая цель для этого примера:
 > This allows me to give listers to friends and for them to plug in 
 >a suitable implementation for their own environment.
 
@@ -23,3 +23,7 @@
  [4](https://www.jetbrains.com/help/resharper/2016.1/Refactorings__Extract_Method.html)].
 
 Экономическая цель достигнута.
+
+Ссылки:  
+[Joel Spolsky](http://stackoverflow.com/a/871420)  
+[Uncle Bob](https://sites.google.com/site/unclebobconsultingllc/blogs-by-robert-martin/dependency-injection-inversion)
