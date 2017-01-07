@@ -26,4 +26,7 @@
 
 Ссылки:  
 [Joel Spolsky](http://stackoverflow.com/a/871420)  
-[Uncle Bob](https://sites.google.com/site/unclebobconsultingllc/blogs-by-robert-martin/dependency-injection-inversion)
+[Uncle Bob](https://sites.google.com/site/unclebobconsultingllc/blogs-by-robert-martin/dependency-injection-inversion)  
+[Are IoC containers a case of “the Emperor’s new clothes”?](http://www.davidarno.org/2013/11/13/are-ioc-containers-a-case-of-the-emperors-new-clothes/)  
+[Poor man’s DI is dead; long live Pure DI](http://www.davidarno.org/2015/10/12/poor-mans-di-is-dead-long-live-pure-di/)  
+[when I later need to understand the code and modify it](http://www.natpryce.com/articles/000783.html)
